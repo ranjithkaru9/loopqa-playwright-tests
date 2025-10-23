@@ -1,0 +1,8 @@
+[
+  { "appName": "Web Application", "column": "To Do", "taskName": "Implement user authentication", "tags": ["Feature", "High Priority"] },
+  { "appName": "Web Application", "column": "To Do", "taskName": "Fix navigation bug", "tags": ["Bug"] },
+  { "appName": "Web Application", "column": "In Progress", "taskName": "Design system updates", "tags": ["Design"] },
+  { "appName": "Mobile Application", "column": "To Do", "taskName": "Push notification system", "tags": ["Feature"] },
+  { "appName": "Mobile Application", "column": "In Progress", "taskName": "Offline mode", "tags": ["Feature", "High Priority"] },
+  { "appName": "Mobile Application", "column": "Done", "taskName": "App icon design", "tags": ["Design"] }
+]
