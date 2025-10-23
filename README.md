@@ -44,7 +44,7 @@ To design a **maintainable, scalable, and data-driven** automation suite that:
 loopqa-project/
 ├── tests/
 │   └── tasks.spec.ts          # Data-driven Playwright tests
-|   └──loginCheck.spec.ts
+│   └──loginCheck.spec.ts
 ├── utils/
 │   └── login.ts                # Login helper for reusability
 ├── data/
@@ -121,5 +121,6 @@ All test cases are defined in `tasks.json` and dynamically loaded into the Playw
    ```bash
    npx playwright test --project=all
    ```
+
 
 
