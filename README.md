@@ -88,21 +88,34 @@ All test cases are defined in `tasks.json` and dynamically loaded into the Playw
 
 --> How to Run Tests Locally
 1. Clone the Repository
-   :git clone https://github.com/ranjithkaru9/loopqa-playwright-tests.git
-   :cd loopqa-playwright-tests
-2. Install Dependencies
-   :npm install
-3. Install Browsers
-   :npx playwright install
-4. Run Tests
-   :npx playwright test --headed
-   
+   ```bash
+   git clone https://github.com/ranjithkaru9/loopqa-playwright-tests.git
+   cd loopqa-playwright-tests
+   ```
+3. Install Dependencies
+   ```bash
+   npm install
+   ```
+5. Install Browsers
+   ```bash
+   npx playwright install
+   ```
+6. Run Tests
+   ```bash
+   npx playwright test --headed
+   ```
    Or run in headless mode:
-   :npx playwright test
-5. View HTML Report
+   ```bash
+   npx playwright test
+   ```
+8. View HTML Report
    After the run completes:
-   :npx playwright show-report
+   ```bash
+   npx playwright show-report
+   ```
    This opens a detailed HTML report with pass/fail summaries and screenshots for failed tests.
-6. Cross-Browser Testing
+9. Cross-Browser Testing
    Run tests across all browsers (Chromium, Firefox, WebKit):
-   :npx playwright test --project=all
+   ```bash
+   npx playwright test --project=all
+   ```
