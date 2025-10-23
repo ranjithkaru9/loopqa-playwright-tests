@@ -38,7 +38,7 @@ To design a **maintainable, scalable, and data-driven** automation suite that:
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```bash
 loopqa-project/
@@ -70,8 +70,9 @@ All test cases are defined in `tasks.json` and dynamically loaded into the Playw
   { "appName": "Mobile Application", "column": "Done", "taskName": "App icon design", "tags": ["Design"] }
 ]
 ```
-##
---> How the Tests Work
+---
+
+## How the Tests Work
 1. Login Automation
    - Opens the demo site
    - Enters credentials (admin / password123)
@@ -84,9 +85,9 @@ All test cases are defined in `tasks.json` and dynamically loaded into the Playw
 3. Reusability & Maintainability
    - Login is abstracted into a helper (login.ts)
    - Test flow auto-adapts to new data in JSON without modifying code
+---
 
-
---> How to Run Tests Locally
+## How to Run Tests Locally
 1. Clone the Repository
    ```bash
    git clone https://github.com/ranjithkaru9/loopqa-playwright-tests.git
@@ -119,3 +120,4 @@ All test cases are defined in `tasks.json` and dynamically loaded into the Playw
    ```bash
    npx playwright test --project=all
    ```
+
